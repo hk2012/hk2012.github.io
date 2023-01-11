@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "あいうえお • All posts by \"influxdb\" tag",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2022/10/15/influxdb/",
+            "url": "http://example.com/2022/10/15/influxdb/",
+            "title": "influxdb",
+            "date_published": "2022-10-15T07:27:53.000Z",
+            "content_html": "<p>influx -username jshsmad -password G5fhY5lB85J% -port 28086 -database hsm</p>\n<p>// 可以将时间转化为 横杠形式的日期<br>\n precision rfc3339</p>\n<p>select * from malicious_info where  time&gt;now()-1d tz(‘Asia/Shanghai’);</p>\n<p>select * from malicious_info limit 10;</p>\n<p>influx -username jshsmad -password G5fhY5lB85J% -port 28086 -database hsm -precision rfc3339 -execute “select * from malicious_info where time&gt;now()-1d tz(‘Asia/Shanghai’)” -format csv  &gt;&gt;  hello.csv</p>\n<p>maven  gradle node.js  源 -&gt;</p>\n<p>select * from malicious_info where hashppoe=‘8503’ and ppoe=‘02357890348’ and time&gt;now()-7 order by time desc tz(‘Asia/Shanghai’)<br>\nselect count(*) from malicious_info where hashppoe=‘8237’ and ppoe=‘07356337160’ and time&gt;now()-7d order by time desc tz(‘Asia/Shanghai’)</p>\n<p>select sum(“txBytes”)/1024 as txBytes from flow_push where hashDeviceID=‘3940’ and deviceID=25506910 and time&gt;now()-1d group by time(20m) fill(0) tz(‘Asia/Shanghai’)</p>\n<p>select * from flow_push where hashDeviceID=‘3940’ and deviceID=25506910 and time&gt;now()-7d group by time(20m) fill(0) tz(‘Asia/Shanghai’)</p>\n<p>select * from malicious_info where hashppoe=‘8237’ and ppoe=‘07356337160’ and time&gt;now()-7d order by time desc tz(‘Asia/Shanghai’)</p>\n<p>SELECT count(*) FROM USER_TRAILRECORD where time&gt;now()-1d tz(‘Asia/Shanghai’)</p>\n<p>select count(*) from malicious_info where  time&gt;now()-7d tz(‘Asia/Shanghai’)<br>\nselect * from malicious_info where  time&gt;now()-7d tz(‘Asia/Shanghai’)</p>\n<p>select count(*) from camera_abnormal where   time&gt;now()-7d tz(‘Asia/Shanghai’)</p>\n<p>SELECT count(<em>) FROM “flow_alarm” WHERE time &gt; ‘2021-09-13T00:00:00Z’ and time &lt; ‘2021-09-19T23:59:59.999999999Z’<br>\nselect count(</em>) from malicious_info where time &gt; ‘2021-09-13T00:00:00Z’ and time &lt; ‘2021-09-19T23:59:59.999999999Z’ tz(‘Asia/Shanghai’)</p>\n",
+            "tags": [
+                "influxdb"
+            ]
+        }
+    ]
+}

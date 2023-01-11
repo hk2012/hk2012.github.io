@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>あいうえお • Posts by &#34;influxdb&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2022-10-15T07:27:53.000Z</updated>
+    <category term="influxdb" />
+    <category term="diary" />
+    <entry>
+        <id>http://example.com/2022/10/15/influxdb/</id>
+        <title>influxdb</title>
+        <link rel="alternate" href="http://example.com/2022/10/15/influxdb/"/>
+        <content type="html">&lt;p&gt;influx -username jshsmad -password G5fhY5lB85J% -port 28086 -database hsm&lt;/p&gt;
+&lt;p&gt;// 可以将时间转化为 横杠形式的日期&lt;br&gt;
+ precision rfc3339&lt;/p&gt;
+&lt;p&gt;select * from malicious_info where  time&amp;gt;now()-1d tz(‘Asia/Shanghai’);&lt;/p&gt;
+&lt;p&gt;select * from malicious_info limit 10;&lt;/p&gt;
+&lt;p&gt;influx -username jshsmad -password G5fhY5lB85J% -port 28086 -database hsm -precision rfc3339 -execute “select * from malicious_info where time&amp;gt;now()-1d tz(‘Asia/Shanghai’)” -format csv  &amp;gt;&amp;gt;  hello.csv&lt;/p&gt;
+&lt;p&gt;maven  gradle node.js  源 -&amp;gt;&lt;/p&gt;
+&lt;p&gt;select * from malicious_info where hashppoe=‘8503’ and ppoe=‘02357890348’ and time&amp;gt;now()-7 order by time desc tz(‘Asia/Shanghai’)&lt;br&gt;
+select count(*) from malicious_info where hashppoe=‘8237’ and ppoe=‘07356337160’ and time&amp;gt;now()-7d order by time desc tz(‘Asia/Shanghai’)&lt;/p&gt;
+&lt;p&gt;select sum(“txBytes”)/1024 as txBytes from flow_push where hashDeviceID=‘3940’ and deviceID=25506910 and time&amp;gt;now()-1d group by time(20m) fill(0) tz(‘Asia/Shanghai’)&lt;/p&gt;
+&lt;p&gt;select * from flow_push where hashDeviceID=‘3940’ and deviceID=25506910 and time&amp;gt;now()-7d group by time(20m) fill(0) tz(‘Asia/Shanghai’)&lt;/p&gt;
+&lt;p&gt;select * from malicious_info where hashppoe=‘8237’ and ppoe=‘07356337160’ and time&amp;gt;now()-7d order by time desc tz(‘Asia/Shanghai’)&lt;/p&gt;
+&lt;p&gt;SELECT count(*) FROM USER_TRAILRECORD where time&amp;gt;now()-1d tz(‘Asia/Shanghai’)&lt;/p&gt;
+&lt;p&gt;select count(*) from malicious_info where  time&amp;gt;now()-7d tz(‘Asia/Shanghai’)&lt;br&gt;
+select * from malicious_info where  time&amp;gt;now()-7d tz(‘Asia/Shanghai’)&lt;/p&gt;
+&lt;p&gt;select count(*) from camera_abnormal where   time&amp;gt;now()-7d tz(‘Asia/Shanghai’)&lt;/p&gt;
+&lt;p&gt;SELECT count(&lt;em&gt;) FROM “flow_alarm” WHERE time &amp;gt; ‘2021-09-13T00:00:00Z’ and time &amp;lt; ‘2021-09-19T23:59:59.999999999Z’&lt;br&gt;
+select count(&lt;/em&gt;) from malicious_info where time &amp;gt; ‘2021-09-13T00:00:00Z’ and time &amp;lt; ‘2021-09-19T23:59:59.999999999Z’ tz(‘Asia/Shanghai’)&lt;/p&gt;
+</content>
+        <category term="influxdb" />
+        <updated>2022-10-15T07:27:53.000Z</updated>
+    </entry>
+</feed>
